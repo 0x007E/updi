@@ -4,6 +4,10 @@
 
 The `UPDI` is an adapter to program the new 0/1/2-Series of Microchip `ATtiny` and `ATmega` with an FT232 USB/UART bridge and `avr-dude`. `TX` line is for transmission from `0/1/2-Series UPDI` pin to UART and `RX` line is for transmission to the `0/1/2-Series UPDI` pin. The USB/UART bridge pins have to be checked bevor connection. Otherwise the programming over UPDI does not work.
 
+![USB/UART Bridge](./images/updi-ft232-schema.jpg)
+
+> Used [FTDI-Adapter](https://www.mikroe.com/usb-uart-board) to program the controller
+
 | Top                           | Bottom                              |
 |:-----------------------------:|:-----------------------------------:|
 | ![Top](./images/UPDI_top.jpg) | ![Bottom](./images/UPDI_bottom.jpg) |
